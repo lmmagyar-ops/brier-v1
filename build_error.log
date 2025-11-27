@@ -1,0 +1,81 @@
+﻿
+> brier_temp@0.1.0 build
+> next build
+
+  Γû▓ Next.js 14.2.33
+
+   Creating an optimized production build ...
+node.exe : Failed to 
+compile.
+At line:1 char:1
++ & "C:\Program Files
+\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Failed    
+ to compile.:Stri    
+ng) [], RemoteEx    
+ception
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+
+./src/app/layout.tsx
+Module not found: 
+Package path 
+./dist/index.css is 
+not exported from 
+package C:\Users\lmma
+g\OneDrive\Desktop\Br
+ier\node_modules\@rai
+nbow-me\rainbowkit 
+(see exports field 
+in C:\Users\lmmag\One
+Drive\Desktop\Brier\n
+ode_modules\@rainbow-
+me\rainbowkit\package
+.json)
+
+https://nextjs.org/do
+cs/messages/module-no
+t-found
+
+./node_modules/wagmi/
+node_modules/@wagmi/c
+onnectors/dist/esm/po
+rto.js
+Module not found: 
+Can't resolve 
+'porto/internal'
+
+https://nextjs.org/do
+cs/messages/module-no
+t-found
+
+Import trace for 
+requested module:
+./node_modules/wagmi/
+node_modules/@wagmi/c
+onnectors/dist/esm/ex
+ports/index.js
+./node_modules/wagmi/
+dist/esm/exports/conn
+ectors.js
+./node_modules/@rainb
+ow-me/rainbowkit/dist
+/index.js
+./src/components/Prov
+iders.tsx
+
+
+> Build failed 
+because of webpack 
+errors

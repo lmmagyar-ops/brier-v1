@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 226, 232, 240;
+  /* slate-200 */
+  --background-start-rgb: 2, 6, 23;
+  /* slate-950 */
+  --background-end-rgb: 2, 6, 23;
+}
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f97316;
+}
+
+@keyframes glow-pulse {
+
+  0%,
+  100% {
+    box-shadow: 0 0 15px rgba(249, 115, 22, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 0 25px rgba(249, 115, 22, 0.6);
+  }
+}
+
+.animate-glow-pulse:hover {
+  animation: glow-pulse 2s infinite;
+}
