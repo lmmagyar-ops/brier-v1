@@ -1,7 +1,10 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // This is a mock Supabase client for Phase 2.
 // In Phase 3, we will replace this with the actual @supabase/supabase-js client.
 
 // Mock In-Memory Store
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const MOCK_STORE: Record<string, any[]> = {
     whale_transactions: [],
     leaderboard: [

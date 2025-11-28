@@ -180,6 +180,7 @@ export default function BrierTerminal() {
                                                                     }}
                                                                 >
                                                                     {chain.iconUrl && (
+                                                                        // eslint-disable-next-line @next/next/no-img-element
                                                                         <img
                                                                             alt={chain.name ?? 'Chain icon'}
                                                                             src={chain.iconUrl}
@@ -269,7 +270,7 @@ export default function BrierTerminal() {
                                                     }
 
                                                     // Volume Logic
-                                                    const isHighVolume = market.volume.includes('M') && parseFloat(market.volume.replace('$', '').replace('M', '')) > 10;
+
 
                                                     // Button Highlight Logic
 

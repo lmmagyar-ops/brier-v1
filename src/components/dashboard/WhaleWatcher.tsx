@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Filter, Wallet, ShieldCheck, ArrowUpRight, ArrowDownRight, MoreHorizontal, Crown, Zap, Info, ExternalLink, X, Loader2 } from 'lucide-react';
+import { Filter, Wallet, ShieldCheck, ArrowUpRight, ArrowDownRight, MoreHorizontal, Crown, Zap, Info, ExternalLink, X } from 'lucide-react';
 import clsx from 'clsx';
 import { getWalletLabel } from '@/lib/knownWallets';
 
