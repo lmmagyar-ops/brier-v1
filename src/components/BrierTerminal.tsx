@@ -272,7 +272,7 @@ export default function BrierTerminal() {
                                                     const isHighVolume = market.volume.includes('M') && parseFloat(market.volume.replace('$', '').replace('M', '')) > 10;
 
                                                     // Button Highlight Logic
-                                                    const isSolid = isHighVolume || market.isArbGroup;
+
                                                     const isShort = market.outcome === 'No';
 
                                                     // Sparkline Logic

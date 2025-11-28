@@ -20,7 +20,7 @@ export async function POST(request: Request) {
             message: 'Position closed successfully',
             realizedPnL: pnl
         });
-    } catch (error) {
+    } catch (_error) {
         return NextResponse.json({ error: 'Failed to process cash out' }, { status: 500 });
     }
 }
